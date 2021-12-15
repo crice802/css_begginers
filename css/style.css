@@ -1,11 +1,15 @@
-.title {
+h2 {
   color: red;
 }
 
-.subtitle {
+.about-me {
   color: blue;
 }
 
-#contact-us {
-  color: green;
+li:nth-child(2){
+  color: steelblue;
+}
+
+ul > li {
+  color: burlywood;
 }
