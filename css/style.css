@@ -1,15 +1,30 @@
-h2 {
-  color: red;
+body {
+  background: linear-gradient(to bottom, rgb(237, 237, 40), rgba(237, 237, 40,0));
+  text-transform: capitalize;
 }
 
-.about-me {
-  color: blue;
+#title {
+  color: rgb(128, 11, 157);
 }
 
-li:nth-child(2){
-  color: steelblue;
+.subtitle {
+  color: rgb(149, 18, 182);
 }
 
-ul > li {
-  color: burlywood;
+.para-text {
+  color: rgb(181, 14, 223);
+}
+
+#service-image {
+  height:  400px;
+  width:  70%;
+  
+  background: radial-gradient(circle,red 20%, blue 40%, green 50%);
+
+
+}
+
+.link {
+  text-decoration: none;
+ 
 }
